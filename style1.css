@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background: linear-gradient(90deg,#4e4e4d,rgb(134, 134, 134));
+}
+ /*   */
+.navbar{
+    display: flex;
+    height: 8%;
+    background-color: rgb(61, 60, 60);
+}
+.logo{
+    display: flex;
+    width: 35%;
+    padding: 1%;
+   justify-content: center;
+   align-items: center;
+   color: #fff;
+   font-size: 20px;
+}
+.logo i{
+font-size: 30px;
+margin: 10px;
+color: rgb(194, 14, 23);
+}
+ul{
+    display: flex;
+    width: 100%;
+    padding: 1.2%;
+    justify-content:right;
+    align-items:center ;
+    list-style: none;
+}
+ul li {
+    margin: 20px;;
+}
+ul li a{
+    color: aliceblue;
+    text-align:left;
+    text-decoration: none; 
+}
+ul li a:hover{
+    color: blue;
+}
+ul li i{
+    color: #fff;
+    font-size: 20px;
+}
+.info{
+    height: 15%;
+    padding: 1%;
+    justify-content: center;
+    align-items: center;
+
+}
+.ms{
+    height: 17%;
+    justify-content: center;
+    align-items: center;
+}
+h3{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    font-size: 120%;
+}
+h2{
+    text-align: center;
+    font-size: 350%;
+    padding: 1%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: linear-gradient( 45deg, #f8f9fa, #ced4da, #6c757d, #748cab, #212519,#6c757d);
+    background-size: 50%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+     animation: gradient 5s infinite;
+ }
+      
+@keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  }
+.bac{
+    display: flex;
+    height: 60%;
+    justify-content: center;
+}
+.img{
+    width: 50%;
+    background-position: center;
+    background-image: url('https://www.salika.co/wp-content/uploads/2021/09/IIOT-part21.jpg');
+}

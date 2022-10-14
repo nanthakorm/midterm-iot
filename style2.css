@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-height: 100%;
+}
+body{
+    background: linear-gradient(90deg,#4e4e4d,rgb(134, 134, 134));
+
+}
+.navbar{
+    display: flex;
+    height: 55px;
+    background-color: rgb(61, 60, 60);
+    font-size: 25px;
+    color: #fff;
+    align-items: center;
+    text-align: right;
+
+}
+p{
+    width:10%;
+}
+p a{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+p a:hover{
+    color: blue;
+}
+.select{
+    height: 800px;
+    justify-content: center;
+    display: flex;
+
+}
+h1{
+    font-size: 50px;
+    margin-top: 2%;
+    text-align: center;
+}
+p1{
+    padding-left: 40.5%;
+}
+p2{
+    padding-left: 33%;
+}
+.inp{
+    height:10%;
+    display: flex;
+    justify-content: center;
+}
+.inp input {
+    height: 35%;
+    width: 20%;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 30px;
+}
+.id{
+    height:10%;
+    display: flex;
+    justify-content: center;
+}
+.id input {
+    height: 35%;
+    width: 20%;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 30px;
+}
+.sub button{
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 0.5%;
+}
+.sub{
+    text-align: center;
+}
+.sub button:hover{
+    background-color: black;
+    color: #fff;
+}
+#sh{
+    width: 100%;
+    height: 40%;
+    justify-content: center;
+    font-weight: bold;
+    display: flex;
+    margin-top: 0.5%;
+    overflow: hidden;
+}
+#sh ul{
+    width: 35%;
+    height: 100%;
+    padding: 1%;
+    border-radius: 30px;
+    box-shadow: 0 0 20px #333;
+    background-color: rgb(43, 41, 41);
+}
+#show{
+   color: rgb(12, 201, 21);
+}
+#get{
+    width: 100%;
+    height: 100%;
+}
